@@ -1,6 +1,7 @@
 
 header {
     background-color: #1F2937;
+   
 }
 
 .nav {
@@ -36,22 +37,28 @@ a {
     justify-content: center;
     gap: 60px;
     align-items: center;  
+    
+}
 
+.center .left-center{
+    display: flex;
+    flex-direction: column;
+   
 }
 
 .left-center {
-  display: flex;
-  flex-direction: column;
- 
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 300px;
-  margin-bottom: 60px;
- 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-bottom: 60px;
+    height: auto;
+  
 }
 
-h1 {
+.awesome {
   color: white;  
+  
 }
 
 .subtext {
@@ -71,8 +78,11 @@ button {
 
 .right-center {
     height: 200px;
-    width: auto;
+    width: 20%;
     display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    
 }
 
 .container {
